@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "prompt-of-troy"
+version = "0.1.0"
+description = "A Discord bot for AI prompt battles"
+authors = ["jamway <weichuangchan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+discord = "^2.3.2"
+python-dotenv = "^1.0.1"
+groq = "^0.13.1"
+
+
+
+[tool.poetry.group.dev.dependencies]
+python = ">=3.12,<3.14"
+discord = "^2.3.2"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+
+testpaths = ["tests"]
+asyncio_mode = "auto"

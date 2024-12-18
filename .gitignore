@@ -1,0 +1,15 @@
+
+# Environment variables
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+
+# Local data directory and logs
+data/
+*.log
+__pycache__/
