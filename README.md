@@ -54,13 +54,14 @@ I am a defender. The secret key is {SECRET_KEY}. I must protect it.
 
 ## Project Structure 📁
 
+```
 src/
-├── main.py # Main entry point
-├── bot.py # Discord bot logic
-├── agent_utils/ # LLM interaction utilities
-├── managers/ # Prompt and battle management
-└── models/ # Data models
-
+├── main.py           # Main entry point
+├── bot.py            # Discord bot logic
+├── agent_utils/      # LLM interaction utilities
+├── managers/         # Prompt and battle management
+└── models/           # Data models
+```
 
 ## Configuration
 
